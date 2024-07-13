@@ -1,0 +1,38 @@
+.octf-btn-cta {
+    display: inline-flex;
+    vertical-align: middle;
+    position: relative
+}
+
+.octf-btn-cta .h-search-form-field {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top: -webkit-calc(100% + 1px);
+    top: expression(100% + 1px);
+    top: -moz-calc(100% + 1px);
+    top: -o-calc(100% + 1px);
+    top: calc(100% + 1px);
+    right: -30px;
+    width: 330px
+}
+
+.octf-btn-cta .h-search-form-field .h-search-form-inner {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 15px 15px 34px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 15px 15px 34px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 15px 15px 34px 0px rgba(0,0,0,0.1)
+}
+
+.octf-btn-cta .octf-cta-icons i {
+    color: #1b1d21;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 22px
+}
+
+.octf-btn-cta .octf-cta-icons i:before,.octf-btn-cta .octf-cta-icons i:after {
+    font-size: 22px
+}
